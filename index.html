@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>I'm Sorry 💔</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffe0e9, #f7f0ff);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #e6005c;
+      margin-bottom: 20px;
+    }
+
+    .message {
+      display: none;
+      font-size: 1.2em;
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin-top: 20px;
+    }
+
+    button {
+      background-color: #ff66a3;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 25px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #e60073;
+    }
+
+    .images {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .images img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Tap to Reveal 💌</h1>
+  <button onclick="document.querySelector('.message').style.display='block'; this.style.display='none';">Show Message</button>
+  
+  <div class="message">
+    <p>
+      Hamia meri Jaan, I am really sorry.<br><br>
+      Mei janta hoon tumhe bohot takleef di hai maine.<br>
+      I know meri bhi kahi na kahi galti hai, par ab ye time galtiyan ginwane ka nahi, sab kuch sudhaarne ka hai.<br>
+      Jaise ke tumne raat ko bola tha — tumhari woh baatein mujhe bohot acchi lagi.<br>
+      Meri jaan, late sahi par aqal to aayi.<br>
+      Tum meri ho... please maan jao.<br>
+      Hum waqai ek nayi shuruaat karein.<br>
+      Main koshish karunga ke tumhe takleef na doon, aur ek accha boyfriend banoon.<br><br>
+      <strong>That's it. ❤️</strong>
+    </p>
+  </div>
+
+  <div class="images">
+    <img src="https://i.imgur.com/jVZIBaN.jpg" alt="Cute Cat">
+    <img src="https://i.imgur.com/LKVoY2E.jpg" alt="Cute Baby">
+    <img src="https://i.imgur.com/n0XQYHt.jpg" alt="Cute Emoji">
+    <img src="https://i.imgur.com/9xRk9Rv.jpg" alt="Cute Cat 2">
+  </div>
+</body>
+</html>
